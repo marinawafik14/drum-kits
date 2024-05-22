@@ -1,0 +1,45 @@
+body{
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+background-color: pink;
+
+}
+h1{
+font-size: 50px;
+color: white;
+letter-spacing: 4px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-shadow: 2px 2px 4px rgba(0, 0,0,.3);
+white-space: nowrap;
+}
+.container{
+    text-align: center;
+}
+
+.btn{
+    margin: 10px;
+padding: 30px 50px;
+border: none;
+font-size: 30px;
+background-color: white;
+min-width: 200px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+cursor: pointer;
+background-image: url("images/tom.jpg");
+background-size: cover;
+color: white;
+font-family: cursive;
+text-shadow: 2px 2px 4px rgba(0, 0,0,.3);
+text-transform: capitalize;
+}
+.btn:hover{
+    color: pink;
+}
+.btn:active{
+    background-size: 105%;
+}
